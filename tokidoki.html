@@ -1,0 +1,960 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" lang="en">
+  <head>
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta name="color-scheme" content="light dark" />
+    <meta name="supported-color-schemes" content="light dark" />
+    <title>HTML Email Template Boilerplate</title>
+    <style type="text/css">
+      @import url("https://fonts.googleapis.com/css2?family=Lato:wght@300;400;700&display=swap");
+      table {
+        border-spacing: 0;
+      }
+
+      td {
+        padding: 0;
+      }
+
+      p {
+        font-size: 15px;
+      }
+
+      img {
+        border: 0;
+      }
+
+      a {
+        text-decoration: none;
+      }
+
+      @media screen and (max-width: 599.98px) {
+        .header {
+          background: #fff;
+        }
+        .header .padding {
+          padding: 20px 0px 20px 0px !important;
+        }
+      }
+      @media only screen and (max-width: 399.98px) {
+        .header {
+          background: #fff;
+        }
+
+        .header-img {
+          width: 150px !important;
+          max-width: 100% !important;
+        }
+
+        .footer .content p a {
+          font-size: 10px !important;
+        }
+        .footer .content p {
+          font-size: 10px !important;
+        }
+      }
+
+      /* Custom Dark Mode Colors */
+
+      @media (prefers-color-scheme: dark) {
+        .sub-header .column p {
+          color: #383633 !important;
+        }
+      }
+    </style>
+
+    <!--[if (gte mso 9)|(IE)]>
+      <style type="text/css">
+        table{border-collapse: collapse; !important}
+      </style>
+    <![endif]-->
+  </head>
+  <body
+    style="margin: 0; padding: 0; min-width: 100%; background-color: #dde0e1"
+  >
+    <!--[if (gte mso 9)|(IE)]>
+      <style type="text/css">
+        body {
+          background-color: #dde0e1 !important;
+        }
+        body,
+        table,
+        td,
+        p,
+        a {
+          font-family: sans-serif, Arial, Helvitica !important;
+        }
+      </style>
+    <![endif]-->
+
+    <!-- Start of HTML EMAIL -->
+    <center style="width: 100%; table-layout: fixed; background-color: #dde0e1">
+      <div
+        style="
+          max-width: 600px;
+          background-color: #fafdfe;
+          box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+        "
+      >
+        <!-- Preheader (remove) -->
+        <div
+          style="
+            font-size: 0px;
+            color: #fafdfe;
+            line-height: 1px;
+            mso-line-height-rule: exactly;
+            display: none;
+            max-width: 0px;
+            max-height: 0px;
+            opacity: 0;
+            overflow: hidden;
+            mso-hide: all;
+          "
+        >
+          This is our preheader text! SALE SALE 25% OFF!
+          <!-- Add Preheader Text (85-100 character) -->
+        </div>
+        <!-- End Preheader (remove) -->
+
+        <!--[if (gte mso 9)|(IE)]>
+         <table width="600" align="center" style="border-spacing: 0; color:#565656" role="presentation">
+            <tr>
+               <td style="padding: 0;">
+    <![endif]-->
+
+        <!-- Start of container -->
+        <table
+          align="center"
+          style="
+            border-spacing: 0;
+            color: #565656;
+            font-family: sans-serif, Arial, Helvitica !important;
+            background-color: #fafdfe;
+            margin: 0;
+            padding: 0;
+            width: 100%;
+            max-width: 600px;
+          "
+          role="presentation"
+        >
+          <!--Start of one-col header -->
+          <tr>
+            <td style="padding: 0px 0 0px 0">
+              <table width="100%" style="border-spacing: 0" role="presentation">
+                <tr>
+                  <td
+                    class="header"
+                    style="padding: 0; font-size: 0; text-align: center"
+                  >
+                    <!--[if (gte mso 9)|(IE)]>
+                                  <table width="100%" style="border-spacing: 0;" role="presentation">
+                                  <tr>
+                                  <td width="600" valign="top" style="padding: 0;">
+                               <![endif]-->
+
+                    <table
+                      class="one-column"
+                      style="
+                        border-spacing: 0;
+                        vertical-align: top;
+                        max-width: 600px;
+                        display: inline-block;
+                      "
+                      role="presentation"
+                    >
+                      <tr>
+                        <td
+                          class="padding"
+                          style="padding: 20px 20px 10px 20px"
+                        >
+                          <table
+                            class="content"
+                            style="border-spacing: 0; text-align: center"
+                            role="presentation"
+                          >
+                            <tr>
+                              <td>
+                                <img
+                                  class="header-img"
+                                  style="width: 200px; max-width: 100%"
+                                  src="https://i.postimg.cc/XvSgBsps/tokidoki-logo.jpg"
+                                  alt="header-img"
+                                />
+                              </td>
+                            </tr>
+                          </table>
+                        </td>
+                      </tr>
+                    </table>
+
+                    <!--[if (gte mso 9)|(IE)]>
+                          </td>
+                        </tr>
+                      </table>
+                        <![endif]-->
+                  </td>
+                </tr>
+              </table>
+            </td>
+          </tr>
+          <!--End of one col   -->
+
+          <!--Start of one-col hero -->
+          <tr>
+            <td style="padding: 0px 0 0px 0">
+              <table width="100%" style="border-spacing: 0" role="presentation">
+                <tr>
+                  <td style="padding: 0; font-size: 0">
+                    <!--[if (gte mso 9)|(IE)]>
+                              <table width="100%" style="border-spacing: 0;" role="presentation">
+                              <tr>
+                              <td width="600" valign="top" style="padding: 0;">
+                           <![endif]-->
+
+                    <table
+                      class="one-column"
+                      style="
+                        border-spacing: 0;
+                        vertical-align: top;
+                        max-width: 600px;
+                        display: inline-block;
+                      "
+                      role="presentation"
+                    >
+                      <tr>
+                        <td class="padding" style="padding: 0px 0px 0px 0px">
+                          <table
+                            class="content"
+                            style="border-spacing: 0"
+                            role="presentation"
+                          >
+                            <tr>
+                              <td>
+                                <img
+                                  class="one-col-img"
+                                  style="width: 600px; max-width: 100%"
+                                  src="https://i.postimg.cc/Hxm3R6mr/tokidoki-boozy-besties.jpg"
+                                  alt="tokidoki-boozy-besties"
+                                />
+                              </td>
+                            </tr>
+                          </table>
+                        </td>
+                      </tr>
+                    </table>
+
+                    <!--[if (gte mso 9)|(IE)]>
+                      </td>
+                    </tr>
+                  </table>
+                    <![endif]-->
+                  </td>
+                </tr>
+              </table>
+            </td>
+          </tr>
+          <!--End of one col hero   -->
+
+          <!--Start of one-col hero -->
+          <tr>
+            <td style="padding: 0px 0 0px 0">
+              <table width="100%" style="border-spacing: 0" role="presentation">
+                <tr>
+                  <td style="padding: 0; font-size: 0">
+                    <!--[if (gte mso 9)|(IE)]>
+                                  <table width="100%" style="border-spacing: 0;" role="presentation">
+                                  <tr>
+                                  <td width="600" valign="top" style="padding: 0;">
+                               <![endif]-->
+
+                    <table
+                      class="one-column"
+                      style="
+                        border-spacing: 0;
+                        vertical-align: top;
+                        max-width: 600px;
+                        display: inline-block;
+                      "
+                      role="presentation"
+                    >
+                      <tr>
+                        <td class="padding" style="padding: 0px 0px 0px 0px">
+                          <table
+                            class="content"
+                            style="border-spacing: 0"
+                            role="presentation"
+                          >
+                            <tr>
+                              <td>
+                                <img
+                                  class="one-col-img"
+                                  style="width: 600px; max-width: 100%"
+                                  src="https://i.postimg.cc/NfNGd0TX/tokidoki-hero-2.jpg"
+                                  alt="tokidoki-boozy-besties"
+                                />
+                              </td>
+                            </tr>
+                          </table>
+                        </td>
+                      </tr>
+                    </table>
+
+                    <!--[if (gte mso 9)|(IE)]>
+                          </td>
+                        </tr>
+                      </table>
+                        <![endif]-->
+                  </td>
+                </tr>
+              </table>
+            </td>
+          </tr>
+          <!--End of one col hero   -->
+
+          <!--Start of one-col -->
+          <tr>
+            <td style="padding: 0px 0 0px 0">
+              <table width="100%" style="border-spacing: 0" role="presentation">
+                <tr>
+                  <td style="padding: 0; font-size: 0">
+                    <!--[if (gte mso 9)|(IE)]>
+                              <table width="100%" style="border-spacing: 0;" role="presentation">
+                              <tr>
+                              <td width="600" valign="top" style="padding: 0;">
+                           <![endif]-->
+
+                    <table
+                      class="one-column"
+                      style="
+                        border-spacing: 0;
+                        vertical-align: top;
+                        max-width: 600px;
+                        display: inline-block;
+                      "
+                      role="presentation"
+                    >
+                      <tr>
+                        <td class="padding" style="padding: 0px 0px 0px 0px">
+                          <table
+                            class="content"
+                            style="border-spacing: 0"
+                            role="presentation"
+                          >
+                            <tr>
+                              <td>
+                                <img
+                                  class="one-col-img"
+                                  style="width: 600px; max-width: 100%"
+                                  src="https://i.postimg.cc/02jnT6T0/tokidoki-celebrate.jpg"
+                                  alt="tokidoki-celebrate"
+                                />
+                              </td>
+                            </tr>
+                          </table>
+                        </td>
+                      </tr>
+                    </table>
+
+                    <!--[if (gte mso 9)|(IE)]>
+                      </td>
+                    </tr>
+                  </table>
+                    <![endif]-->
+                  </td>
+                </tr>
+              </table>
+            </td>
+          </tr>
+          <!--End of one col   -->
+
+          <!--Start of one-col -->
+          <tr>
+            <td style="padding: 0px 0 0px 0">
+              <table width="100%" style="border-spacing: 0" role="presentation">
+                <tr>
+                  <td style="padding: 0; font-size: 0">
+                    <!--[if (gte mso 9)|(IE)]>
+                                  <table width="100%" style="border-spacing: 0;" role="presentation">
+                                  <tr>
+                                  <td width="600" valign="top" style="padding: 0;">
+                               <![endif]-->
+
+                    <table
+                      class="one-column"
+                      style="
+                        border-spacing: 0;
+                        vertical-align: top;
+                        max-width: 600px;
+                        display: inline-block;
+                      "
+                      role="presentation"
+                    >
+                      <tr>
+                        <td class="padding" style="padding: 0px 0px 0px 0px">
+                          <table
+                            class="content"
+                            style="border-spacing: 0"
+                            role="presentation"
+                          >
+                            <tr>
+                              <td>
+                                <img
+                                  class="one-col-img"
+                                  style="width: 600px; max-width: 100%"
+                                  src="https://i.postimg.cc/25Q7QnWr/tokidoki-maido-kanpai.jpg"
+                                  alt="tokidoki-maido-kanpai"
+                                />
+                              </td>
+                            </tr>
+                          </table>
+                        </td>
+                      </tr>
+                    </table>
+
+                    <!--[if (gte mso 9)|(IE)]>
+                          </td>
+                        </tr>
+                      </table>
+                        <![endif]-->
+                  </td>
+                </tr>
+              </table>
+            </td>
+          </tr>
+          <!--End of one col   -->
+
+          <!--Start of one-col -->
+          <tr>
+            <td style="padding: 0px 0 0px 0">
+              <table width="100%" style="border-spacing: 0" role="presentation">
+                <tr>
+                  <td style="padding: 0; font-size: 0">
+                    <!--[if (gte mso 9)|(IE)]>
+                                      <table width="100%" style="border-spacing: 0;" role="presentation">
+                                      <tr>
+                                      <td width="600" valign="top" style="padding: 0;">
+                                   <![endif]-->
+
+                    <table
+                      class="one-column"
+                      style="
+                        border-spacing: 0;
+                        vertical-align: top;
+                        max-width: 600px;
+                        display: inline-block;
+                      "
+                      role="presentation"
+                    >
+                      <tr>
+                        <td class="padding" style="padding: 0px 0px 0px 0px">
+                          <table
+                            class="content"
+                            style="border-spacing: 0"
+                            role="presentation"
+                          >
+                            <tr>
+                              <td>
+                                <img
+                                  class="one-col-img"
+                                  style="width: 600px; max-width: 100%"
+                                  src="https://i.postimg.cc/GhfKdLrw/tokidoki-new-arrivals.jpg"
+                                  alt="tokidoki-new-arrivals"
+                                />
+                              </td>
+                            </tr>
+                          </table>
+                        </td>
+                      </tr>
+                    </table>
+
+                    <!--[if (gte mso 9)|(IE)]>
+                              </td>
+                            </tr>
+                          </table>
+                            <![endif]-->
+                  </td>
+                </tr>
+              </table>
+            </td>
+          </tr>
+          <!--End of one col   -->
+
+          <!--Start of one-col navbar -->
+          <tr>
+            <td style="padding: 20px 0 0px 0">
+              <table width="100%" style="border-spacing: 0" role="presentation">
+                <tr>
+                  <td height="1" style="background-color: #ededed"></td>
+                </tr>
+                <tr>
+                  <td
+                    class="header"
+                    style="
+                      padding: 10px 0px 0px 0px;
+                      font-size: 0;
+                      text-align: center;
+                    "
+                  >
+                    <!--[if (gte mso 9)|(IE)]>
+                                  <table width="100%" style="border-spacing: 0;" role="presentation">
+                                  <tr>
+                                  <td width="600" valign="top" style="padding: 0;">
+                               <![endif]-->
+
+                    <table
+                      class="one-column"
+                      style="
+                        border-spacing: 0;
+                        vertical-align: top;
+                        max-width: 600px;
+                        display: inline-block;
+                      "
+                      role="presentation"
+                    >
+                      <tr>
+                        <td
+                          class="padding"
+                          style="padding: 10px 20px 20px 20px"
+                        >
+                          <table
+                            class="content"
+                            style="
+                              border-spacing: 0;
+                              text-align: center;
+                              width: 540px;
+                              max-width: 90%;
+                            "
+                            role="presentation"
+                            align="center"
+                          >
+                            <tr>
+                              <td style="width: 25%; text-align: center">
+                                <a
+                                  style="
+                                    color: #000;
+                                    font-style: normal;
+                                    font-weight: 400;
+                                    text-decoration: underline;
+                                    display: inline-block;
+                                    background: transparent;
+                                    font-family: Arial;
+                                    font-size: 16px;
+                                    line-height: 100%;
+                                    letter-spacing: 0;
+                                    margin: 0;
+                                    text-transform: none;
+                                    padding: 10px 10px 10px 10px;
+                                    border-radius: 5px;
+                                  "
+                                  href="https://example.com"
+                                >
+                                  Toys
+                                </a>
+                              </td>
+                              <td style="width: 25%; text-align: center">
+                                <a
+                                  style="
+                                    color: #000;
+                                    font-style: normal;
+                                    font-weight: 400;
+                                    text-decoration: underline;
+                                    display: inline-block;
+                                    background: transparent;
+                                    font-family: Arial;
+                                    font-size: 16px;
+                                    line-height: 100%;
+                                    letter-spacing: 0;
+                                    margin: 0;
+                                    text-transform: none;
+                                    padding: 10px 10px 10px 10px;
+                                    border-radius: 5px;
+                                  "
+                                  href="https://example.com"
+                                >
+                                  Bags
+                                </a>
+                              </td>
+                              <td style="width: 25%; text-align: center">
+                                <a
+                                  style="
+                                    color: #000;
+                                    font-style: normal;
+                                    font-weight: 400;
+                                    text-decoration: underline;
+                                    display: inline-block;
+                                    background: transparent;
+                                    font-family: Arial;
+                                    font-size: 16px;
+                                    line-height: 100%;
+                                    letter-spacing: 0;
+                                    margin: 0;
+                                    text-transform: none;
+                                    padding: 10px 10px 10px 10px;
+                                    border-radius: 5px;
+                                  "
+                                  href="https://example.com"
+                                >
+                                  Women's
+                                </a>
+                              </td>
+                              <td style="width: 25%; text-align: center">
+                                <a
+                                  style="
+                                    color: #000;
+                                    font-style: normal;
+                                    font-weight: 400;
+                                    text-decoration: underline;
+                                    display: inline-block;
+                                    background: transparent;
+                                    font-family: Arial;
+                                    font-size: 16px;
+                                    line-height: 100%;
+                                    letter-spacing: 0;
+                                    margin: 0;
+                                    text-transform: none;
+                                    padding: 10px 10px 10px 10px;
+                                    border-radius: 5px;
+                                  "
+                                  href="https://example.com"
+                                >
+                                  Men's
+                                </a>
+                              </td>
+                            </tr>
+                          </table>
+                        </td>
+                      </tr>
+                    </table>
+
+                    <!--[if (gte mso 9)|(IE)]>
+                          </td>
+                        </tr>
+                      </table>
+                        <![endif]-->
+                  </td>
+                </tr>
+              </table>
+            </td>
+          </tr>
+          <!--End of one col navbar  -->
+
+          <!--Start of one-col -->
+          <tr>
+            <td style="padding: 0px 0 0px 0">
+              <table width="100%" style="border-spacing: 0" role="presentation">
+                <tr>
+                  <td style="padding: 0; font-size: 0">
+                    <!--[if (gte mso 9)|(IE)]>
+                                      <table width="100%" style="border-spacing: 0;" role="presentation">
+                                      <tr>
+                                      <td width="600" valign="top" style="padding: 0;">
+                                   <![endif]-->
+
+                    <table
+                      class="one-column"
+                      style="
+                        border-spacing: 0;
+                        vertical-align: top;
+                        max-width: 600px;
+                        display: inline-block;
+                      "
+                      role="presentation"
+                    >
+                      <tr>
+                        <td class="padding" style="padding: 0px 0px 0px 0px">
+                          <table
+                            class="content"
+                            style="
+                              border-spacing: 0;
+                              width: 600px;
+                              max-width: 100%;
+                            "
+                            role="presentation"
+                          >
+                            <tr>
+                              <td style="padding: 0">
+                                <table
+                                  width="100%"
+                                  style="border-spacing: 0"
+                                  role="presentation"
+                                >
+                                  <tr>
+                                    <td
+                                      height="1"
+                                      style="background-color: #ededed"
+                                    ></td>
+                                  </tr>
+
+                                  <tr>
+                                    <td>
+                                      <h4
+                                        style="
+                                          font-family: 'Helvetica Neue',
+                                            Helvetica, Arial, sans-serif;
+                                          font-size: 22px;
+                                          color: #b7b7b7;
+                                          text-align: center;
+                                          margin-bottom: 10px;
+                                        "
+                                      >
+                                        Stay in touch with us!
+                                      </h4>
+                                    </td>
+                                  </tr>
+                                  <tr>
+                                    <td
+                                      style="
+                                        text-align: center;
+                                        padding: 10px 0px 8px 0px;
+                                      "
+                                    >
+                                      <a
+                                        href="https://example.com"
+                                        target="_blank"
+                                      >
+                                        <img
+                                          src="https://i.postimg.cc/zvtjL5gh/tokidoki-facebook.png"
+                                          width="32px"
+                                          border="0"
+                                          title="facebook"
+                                          alt="facebook"
+                                        />
+                                      </a>
+                                      <a
+                                        href="https://example.com"
+                                        target="_blank"
+                                      >
+                                        <img
+                                          src="https://i.postimg.cc/cC4h46rZ/tokidoki-instagram.png"
+                                          width="32px"
+                                          border="0"
+                                          title="twitter"
+                                          alt="twitter"
+                                        />
+                                      </a>
+                                      <a
+                                        href="https://example.com"
+                                        target="_blank"
+                                      >
+                                        <img
+                                          src="https://i.postimg.cc/YCm3S5q4/tokidoki-twitter.png"
+                                          width="32px"
+                                          border="0"
+                                          title="youtube"
+                                          alt="youtube"
+                                        />
+                                      </a>
+                                      <a
+                                        href="https://example.com"
+                                        target="_blank"
+                                      >
+                                        <img
+                                          src="https://i.postimg.cc/dQ4nNRx0/tokidoki-pinterest.png"
+                                          width="32px"
+                                          border="0"
+                                          title="linkedin"
+                                          alt="linkedin"
+                                        />
+                                      </a>
+                                      <a
+                                        href="https://example.com"
+                                        target="_blank"
+                                      >
+                                        <img
+                                          src="https://i.postimg.cc/ydTnH06v/tokidoki-email.png"
+                                          width="32px"
+                                          border="0"
+                                          title="linkedin"
+                                          alt="linkedin"
+                                        />
+                                      </a>
+                                    </td>
+                                  </tr>
+                                  <tr>
+                                    <td>
+                                      <p
+                                        style="
+                                          text-align: center;
+                                          font-family: 'Helvetica Neue',
+                                            Helvetica, Arial, sans-serif;
+                                          color: #b7b7b7;
+                                          font-size: 16px;
+                                        "
+                                      >
+                                        Share your moments with
+                                        <span
+                                          style="
+                                            font-family: 'Helvetica Neue',
+                                              Helvetica, Arial, sans-serif;
+                                            color: #222;
+                                            font-weight: bold;
+                                            font-size: 16px;
+                                          "
+                                        >
+                                          #tokidoki
+                                        </span>
+                                      </p>
+                                    </td>
+                                  </tr>
+                                  <tr>
+                                    <td
+                                      height="1"
+                                      style="background-color: #ededed"
+                                    ></td>
+                                  </tr>
+                                </table>
+                              </td>
+                            </tr>
+                          </table>
+                        </td>
+                      </tr>
+                    </table>
+
+                    <!--[if (gte mso 9)|(IE)]>
+                              </td>
+                            </tr>
+                          </table>
+                            <![endif]-->
+                  </td>
+                </tr>
+              </table>
+            </td>
+          </tr>
+          <!--End of one col   -->
+
+          <!--Start of one-col footer-->
+          <tr>
+            <td style="padding: 20px 0 20px 0">
+              <table
+                class="footer"
+                width="100%"
+                style="border-spacing: 0"
+                role="presentation"
+              >
+                <tr>
+                  <td style="padding: 0; font-size: 0">
+                    <!--[if (gte mso 9)|(IE)]>
+                          <table width="100%" style="border-spacing: 0;" role="presentation">
+                          <tr>
+                          <td width="600" valign="top" style="padding: 0;">
+                       <![endif]-->
+
+                    <table
+                      class="one-column"
+                      style="
+                        border-spacing: 0;
+                        vertical-align: top;
+                        max-width: 600px;
+                        width: 100%;
+                      "
+                      role="presentation"
+                    >
+                      <tr>
+                        <td class="padding" style="padding: 0px 0px 0px 0px">
+                          <table
+                            class="content"
+                            style="border-spacing: 0; width: 100%"
+                            role="presentation"
+                          >
+                            <tr>
+                              <td>
+                                <p
+                                  style="
+                                    font-family: 'Helvetica Neue', Helvetica,
+                                      Arial, sans-serif;
+                                    color: #b7b7b7;
+                                    font-size: 16px;
+                                    text-align: center;
+                                  "
+                                >
+                                  TOKIDOKI LLC 5655 West Adams Blvd Los Angeles,
+                                  California 90016
+                                </p>
+                              </td>
+                            </tr>
+
+                            <tr>
+                              <td
+                                style="
+                                  text-align: center;
+                                  padding: 10px 0px 8px 0px;
+                                "
+                              >
+                                <a
+                                  href="https://example.com"
+                                  target="_blank"
+                                  style="
+                                    color: #b7b7b7;
+                                    font-style: normal;
+                                    font-weight: 400;
+                                    text-decoration: underline;
+                                    font-size: 12px;
+                                    padding-left: 7px;
+                                    padding-right: 7px;
+                                    border-right: 1px solid #b7b7b7;
+                                  "
+                                >
+                                  Unsubscribe
+                                </a>
+                                <a
+                                  href="https://example.com"
+                                  target="_blank"
+                                  style="
+                                    color: #b7b7b7;
+                                    font-style: normal;
+                                    font-weight: 400;
+                                    text-decoration: underline;
+                                    font-size: 12px;
+                                    padding-left: 7px;
+                                    padding-right: 7px;
+                                    border-right: 1px solid #b7b7b7;
+                                  "
+                                >
+                                  Privacy Policy
+                                </a>
+                                <a
+                                  href="https://example.com"
+                                  target="_blank"
+                                  style="
+                                    color: #b7b7b7;
+                                    font-style: normal;
+                                    font-weight: 400;
+                                    text-decoration: underline;
+                                    font-size: 12px;
+                                    padding-left: 7px;
+                                  "
+                                >
+                                  Help/FAQ
+                                </a>
+                              </td>
+                            </tr>
+                          </table>
+                        </td>
+                      </tr>
+                    </table>
+
+                    <!--[if (gte mso 9)|(IE)]>
+                  </td>
+                </tr>
+              </table>
+                <![endif]-->
+                  </td>
+                </tr>
+              </table>
+            </td>
+          </tr>
+          <!--End of one col   -->
+        </table>
+        <!-- End of container -->
+
+        <!--[if (gte mso 9)|(IE)]>
+        </td>
+      </tr>
+   </table>
+         <![endif]-->
+      </div>
+      <!-- End of HTML EMAIL -->
+    </center>
+  </body>
+</html>
